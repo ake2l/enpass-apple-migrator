@@ -18,7 +18,7 @@ A lightweight Python utility to convert Enpass CSV exports to Apple Password CSV
 
 ```bash
 # Clone the repository
-git clone https://github.com/ake2l/Enpass-Apple-Migrator.git
+git clone https://github.com/ake2l/enpass-apple-migrator.git
 
 # Navigate to the directory
 cd Enpass-Apple-Migrator
