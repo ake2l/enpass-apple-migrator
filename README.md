@@ -27,7 +27,7 @@ cd Enpass-Apple-Migrator
 ## 💻 Usage
 
 1. Export your passwords from Enpass as CSV
-2. Place the exported CSV file as `input.csv` in the same directory as the script
+2. Place the exported CSV file as `enpass-export.csv` in the same directory as the script
 3. Run the script:
 ```bash
 python enpass_to_apple.py
