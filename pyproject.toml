@@ -1,5 +1,5 @@
 [project]
-name = "enpass-escape-tool"
+name = "enpass-escape"
 authors = [
     { name = "ake2l", email = "other@ke2.de" }
 ]
