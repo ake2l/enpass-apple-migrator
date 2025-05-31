@@ -32,6 +32,8 @@ pip install -e .
 
 ## 💻 Usage
 
+> **Note:** The Enpass CSV export does not support all fields completely (e.g., TOTP, notes, extra fields). For best results, it is recommended to use the **JSON export** from Enpass!
+
 Run the `enpass-escape` command with your Enpass export and desired output path:
 
 ```bash
@@ -53,8 +55,8 @@ Title,URL,Username,Password,OTPAuth URL,Notes
 
 ### Input Formats
 
-- **CSV**: Standard Enpass CSV export
-- **JSON**: Enpass JSON export
+- **JSON (empfohlen)**: Enpass JSON export (empfohlen, da vollständiger Datenexport)
+- **CSV**: Standard Enpass CSV export (eingeschränkter Feldumfang)
 
 ### Output Format
 

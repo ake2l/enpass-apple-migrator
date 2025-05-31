@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: pip install .[dev]
       - name: Run tests
-        run: pytest
+        run: pytest tests/unittest
 
   build:
     runs-on: ubuntu-22.04

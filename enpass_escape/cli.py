@@ -19,7 +19,7 @@ ENPASS_FIELD_MAPPINGS: Dict[str, List[str]] = {
 }
 
 # Apple Passwords CSV Header
-APPLE_CSV_HEADER: List[str] = ['Title', 'URL', 'Username', 'Password', 'OTPAuth URL', 'Notes']
+APPLE_CSV_HEADER: List[str] = ['Title', 'URL', 'Username', 'Password', 'Notes', 'OTPAuth']
 
 def generate_otpauth_url(secret_key: str, title: str = "", username: str = "") -> str:
     """Generates an otpauth://totp URL for use with authenticator apps.
@@ -145,8 +145,8 @@ def transform_enpass_csv_to_apple(input_filepath: str, output_filepath: str) -> 
                         entry.get('URL', ''),
                         entry.get('Username', ''),
                         entry.get('Password', ''),
-                        otpauth_url,
-                        consolidated_notes
+                        consolidated_notes,
+                        otpauth_url
                     ])
                 return
              
@@ -204,8 +204,8 @@ def transform_enpass_csv_to_apple(input_filepath: str, output_filepath: str) -> 
                          entry.get('URL', ''),
                          entry.get('Username', ''),
                          entry.get('Password', ''),
-                         otpauth_url,
-                         consolidated_notes
+                         consolidated_notes,
+                         otpauth_url
                      ])
                  return
              
@@ -256,8 +256,8 @@ def transform_enpass_csv_to_apple(input_filepath: str, output_filepath: str) -> 
                     url_val,
                     username_val,
                     password_val, # Keep original password spacing
-                    otpauth_url,
-                    consolidated_notes
+                    consolidated_notes,
+                    otpauth_url
                 ])
                 processed_rows += 1
             
@@ -331,7 +331,7 @@ def write_apple_csv_from_dicts(dicts: list, output_filepath: str):
             extra_notes = '\n'.join(entry.get('_extra', []))
             consolidated_notes = '\n'.join(filter(None, [notes, extra_notes]))
             csv_writer.writerow([
-                title, url, username, password, otpauth_url, consolidated_notes
+                title, url, username, password, consolidated_notes, otpauth_url
             ])
 
 
