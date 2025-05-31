@@ -1,0 +1,3 @@
+"TestHeaderFullWithExtra","Username","UserNameTest","E-mail","EmailTest","*Password","PasswordTest","Website","test.de","1312321312","","Extra","2132132","Extra 2","12312321","Phone number","123422332","One-time code","asdsadsaads","Security question","12321312213","*Security answer","1231232132131231","My notes"
+"TestHeaderMinimal","Username","UserNameTest","*Password","PasswordTest"
+"TestHeaderReduced","Username","UserNameTest","E-mail","EmailTest","*Password","PasswordTest","Website","test.de","Phone number","Phone123","One-time code","","Security question","12321312213","*Security answer","1231232132131231","My notes"

@@ -1,69 +1,79 @@
-# Enpass to Apple Password Migrator
+# Enpass-Escape
 
-A lightweight Python utility to convert Enpass CSV exports to Apple Password CSV import format. This tool helps users migrate their passwords from Enpass to Apple's password management system while preserving all critical information including TOTP/2FA secrets.
+A lightweight Python CLI to migrate passwords from Enpass to Apple Passwords format. Supports both CSV and JSON exports, preserves TOTP/2FA secrets, and consolidates extra fields into notes.
 
 ## 🚀 Features
 
-- Converts Enpass CSV export format to Apple Password compatible format
+- Converts Enpass CSV or JSON export to Apple Passwords import CSV
 - Preserves TOTP/2FA secrets with proper otpauth URI formatting
-- Maintains credential information including titles, URLs, usernames, and passwords
-- Combines additional fields into organized notes
-- Zero external dependencies - pure Python implementation
+- Maintains titles, URLs, usernames, passwords, and notes
+- Combines any additional fields into organized notes
+- Zero external dependencies except Typer for the CLI interface
 
 ## 📋 Prerequisites
 
-- Python 3.6 or higher
+- Python 3.11 or higher
 
 ## 🛠️ Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/ake2l/enpass-apple-migrator.git
+Install from PyPI:
 
-# Navigate to the directory
-cd Enpass-Apple-Migrator
+```bash
+pip install enpass-escape
+```
+
+Or install development version:
+
+```bash
+git clone https://github.com/ake2l/enpass-apple-migrator.git
+cd enpass-apple-migrator
+pip install -e .
 ```
 
 ## 💻 Usage
 
-1. Export your passwords from Enpass as CSV
-2. Place the exported CSV file as `enpass-export.csv` in the same directory as the script
-3. Run the script:
+Run the `enpass-escape` command with your Enpass export and desired output path:
+
 ```bash
-python enpass_to_apple.py
-```
-4. Find the converted file as `output.csv`
-5. Import the resulting CSV file into Apple Passwords
+# CSV-to-CSV
+enpass-escape enpass-export.csv export-apple-passwords.csv
 
-### Input Format (Enpass Export)
-```csv
-"Title","Username","value","E-Mail","value","*Password","value","Url","value","ADDITIONAL DETAILS","value"...
+# JSON-to-CSV
+enpass-escape export.json apple-output.csv
+
+# View help
+enpass-escape --help
 ```
 
-### Output Format (Apple Password Import)
+The output CSV will have the header:
+
 ```csv
-Title,URL,Username,Password,Notes,OTPAuth
-example,https://example.com,user@email.com,password123,additional notes,otpauth://totp/...
+Title,URL,Username,Password,OTPAuth URL,Notes
+```
+
+### Input Formats
+
+- **CSV**: Standard Enpass CSV export
+- **JSON**: Enpass JSON export
+
+### Output Format
+
+Apple Passwords import CSV with the following columns:
+
+```csv
+Title,URL,Username,Password,OTPAuth URL,Notes
 ```
 
 ## 🔒 Security Considerations
 
-- All processing is done locally on your machine
-- No network connections are made
+- All processing is local; no network calls
 - No data is stored or cached
-- Memory is cleared after processing
-- No external dependencies required
+- No external dependencies other than Typer
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions welcome! Open an issue or submit a pull request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License. See [LICENSE](LICENSE) for details.

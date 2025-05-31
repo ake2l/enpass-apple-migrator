@@ -1,0 +1,44 @@
+[project]
+name = "enpass-escape-tool"
+authors = [
+    { name = "ake2l", email = "other@ke2.de" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Utilities"
+]
+keywords = [
+    "enpass",
+    "password-manager",
+    "escape",
+    "export",
+    "import",
+    "cli"
+]
+
+license = { file = "LICENSE" }
+version = "0.1.0"
+description = "Since Enpass doesn't make it so easy to escape, this tool helps you to export your data in other Password Managers formats."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "typer[all]"
+]
+
+[project.scripts]
+enpass-escape = "enpass_escape.cli:app"
+
+[build-system]
+requires = [
+    "setuptools>=61.2.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["enpass_escape"]
