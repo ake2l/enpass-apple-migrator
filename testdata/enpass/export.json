@@ -1,0 +1,473 @@
+{
+    "folders": [
+        {
+            "icon": "1008",
+            "parent_uuid": "",
+            "title": "my tags",
+            "updated_at": 1748310188,
+            "uuid": "f1ca1b69-d028-4c7c-acb4-d1bd444dbf44"
+        },
+        {
+            "icon": "1008",
+            "parent_uuid": "",
+            "title": "sada",
+            "updated_at": 1748311134,
+            "uuid": "db622f7c-a5e6-418a-9d3e-db77ed677e72"
+        }
+    ],
+    "items": [
+        {
+            "archived": 0,
+            "auto_submit": 1,
+            "category": "login",
+            "category_name": "Login",
+            "createdAt": 1748310125,
+            "favorite": 0,
+            "field_updated_at": 1748311134,
+            "fields": [
+                {
+                    "deleted": 0,
+                    "label": "Username",
+                    "order": 1,
+                    "sensitive": 0,
+                    "type": "username",
+                    "uid": 10,
+                    "updated_at": 1748310125,
+                    "value": "UserNameTest",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "E-mail",
+                    "order": 2,
+                    "sensitive": 0,
+                    "type": "email",
+                    "uid": 12,
+                    "updated_at": 1748310125,
+                    "value": "EmailTest",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "Password",
+                    "order": 3,
+                    "sensitive": 1,
+                    "type": "password",
+                    "uid": 11,
+                    "updated_at": 1748310125,
+                    "value": "PasswordTest",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "Website",
+                    "order": 4,
+                    "sensitive": 0,
+                    "type": "url",
+                    "uid": 13,
+                    "updated_at": 1748310125,
+                    "value": "test.de",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "1312321312",
+                    "order": 5,
+                    "sensitive": 0,
+                    "type": "section",
+                    "uid": 101,
+                    "updated_at": 1748310125,
+                    "value": "",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "Extra",
+                    "order": 6,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 9959,
+                    "updated_at": 1748311134,
+                    "value": "2132132",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "Extra 2",
+                    "order": 7,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 9486,
+                    "updated_at": 1748311134,
+                    "value": "12312321",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "Phone number",
+                    "order": 8,
+                    "sensitive": 0,
+                    "type": "phone",
+                    "uid": 14,
+                    "updated_at": 1748310125,
+                    "value": "123422332",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "One-time code",
+                    "order": 9,
+                    "sensitive": 0,
+                    "type": "totp",
+                    "uid": 102,
+                    "updated_at": 1748311134,
+                    "value": "asdsadsaads",
+                    "value_updated_at": 1748311134
+                },
+                {
+                    "deleted": 0,
+                    "label": "Security question",
+                    "order": 10,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 15,
+                    "updated_at": 1748310125,
+                    "value": "12321312213",
+                    "value_updated_at": 1748310125
+                },
+                {
+                    "deleted": 0,
+                    "label": "Security answer",
+                    "order": 11,
+                    "sensitive": 1,
+                    "type": "text",
+                    "uid": 16,
+                    "updated_at": 1748310125,
+                    "value": "1231232132131231",
+                    "value_updated_at": 1748310125
+                }
+            ],
+            "folders": [
+                "f1ca1b69-d028-4c7c-acb4-d1bd444dbf44",
+                "db622f7c-a5e6-418a-9d3e-db77ed677e72"
+            ],
+            "icon": {
+                "fav": "test.de",
+                "image": {
+                    "file": "misc/login"
+                },
+                "type": 1,
+                "uuid": ""
+            },
+            "note": "My notes",
+            "subtitle": "UserNameTest",
+            "template_type": "login.default",
+            "title": "TestHeaderFullWithExtra",
+            "trashed": 0,
+            "updated_at": 1748311134,
+            "uuid": "ffa6bed2-64f2-4a06-b19f-76322cf18af7"
+        },
+        {
+            "archived": 0,
+            "auto_submit": 1,
+            "category": "login",
+            "category_name": "Login",
+            "createdAt": 1748310643,
+            "favorite": 0,
+            "field_updated_at": 1748311179,
+            "fields": [
+                {
+                    "deleted": 0,
+                    "label": "Username",
+                    "order": 1,
+                    "sensitive": 0,
+                    "type": "username",
+                    "uid": 10,
+                    "updated_at": 1748310643,
+                    "value": "UserNameTest",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 0,
+                    "label": "Password",
+                    "order": 2,
+                    "sensitive": 1,
+                    "type": "password",
+                    "uid": 11,
+                    "updated_at": 1748311179,
+                    "value": "PasswordTest",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "E-mail",
+                    "order": 2,
+                    "sensitive": 0,
+                    "type": "email",
+                    "uid": 12,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "Website",
+                    "order": 4,
+                    "sensitive": 0,
+                    "type": "url",
+                    "uid": 13,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "1312321312",
+                    "order": 5,
+                    "sensitive": 0,
+                    "type": "section",
+                    "uid": 101,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "Field Name",
+                    "order": 6,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 9959,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "Field Name",
+                    "order": 7,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 9486,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "Phone number",
+                    "order": 8,
+                    "sensitive": 0,
+                    "type": "phone",
+                    "uid": 14,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "One-time code",
+                    "order": 9,
+                    "sensitive": 0,
+                    "type": "totp",
+                    "uid": 102,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "Security question",
+                    "order": 10,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 15,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                },
+                {
+                    "deleted": 1,
+                    "label": "Security answer",
+                    "order": 11,
+                    "sensitive": 1,
+                    "type": "text",
+                    "uid": 16,
+                    "updated_at": 1748311179,
+                    "value": "",
+                    "value_updated_at": 1748310643
+                }
+            ],
+            "icon": {
+                "fav": "",
+                "image": {
+                    "file": "misc/login"
+                },
+                "type": 1,
+                "uuid": ""
+            },
+            "note": "",
+            "subtitle": "UserNameTest",
+            "template_type": "login.default",
+            "title": "TestHeaderMinimal",
+            "trashed": 0,
+            "updated_at": 1748311179,
+            "uuid": "d9461f8b-c47a-40c4-88e7-9e5c664585a5"
+        },
+        {
+            "archived": 0,
+            "auto_submit": 1,
+            "category": "login",
+            "category_name": "Login",
+            "createdAt": 1748310647,
+            "favorite": 0,
+            "field_updated_at": 1748310960,
+            "fields": [
+                {
+                    "deleted": 0,
+                    "label": "Username",
+                    "order": 1,
+                    "sensitive": 0,
+                    "type": "username",
+                    "uid": 10,
+                    "updated_at": 1748310647,
+                    "value": "UserNameTest",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "label": "E-mail",
+                    "order": 2,
+                    "sensitive": 0,
+                    "type": "email",
+                    "uid": 12,
+                    "updated_at": 1748310647,
+                    "value": "EmailTest",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "label": "Password",
+                    "order": 3,
+                    "sensitive": 1,
+                    "type": "password",
+                    "uid": 11,
+                    "updated_at": 1748310647,
+                    "value": "PasswordTest",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "label": "Website",
+                    "order": 4,
+                    "sensitive": 0,
+                    "type": "url",
+                    "uid": 13,
+                    "updated_at": 1748310647,
+                    "value": "test.de",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "history": [
+                        {
+                            "encrypted": false,
+                            "updated_at": 1748310647,
+                            "value": "123422332"
+                        }
+                    ],
+                    "label": "Phone number",
+                    "order": 5,
+                    "sensitive": 0,
+                    "type": "phone",
+                    "uid": 14,
+                    "updated_at": 1748310945,
+                    "value": "Phone123",
+                    "value_updated_at": 1748310945
+                },
+                {
+                    "deleted": 1,
+                    "label": "1312321312",
+                    "order": 5,
+                    "sensitive": 0,
+                    "type": "section",
+                    "uid": 101,
+                    "updated_at": 1748310945,
+                    "value": "",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "label": "One-time code",
+                    "order": 6,
+                    "sensitive": 0,
+                    "type": "totp",
+                    "uid": 102,
+                    "updated_at": 1748310945,
+                    "value": "",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 1,
+                    "label": "Field Name",
+                    "order": 6,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 9959,
+                    "updated_at": 1748310945,
+                    "value": "",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "label": "Security question",
+                    "order": 7,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 15,
+                    "updated_at": 1748310945,
+                    "value": "12321312213",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 1,
+                    "label": "Field Name",
+                    "order": 7,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 9486,
+                    "updated_at": 1748310945,
+                    "value": "",
+                    "value_updated_at": 1748310647
+                },
+                {
+                    "deleted": 0,
+                    "label": "Security answer",
+                    "order": 8,
+                    "sensitive": 1,
+                    "type": "text",
+                    "uid": 16,
+                    "updated_at": 1748310945,
+                    "value": "1231232132131231",
+                    "value_updated_at": 1748310647
+                }
+            ],
+            "icon": {
+                "fav": "test.de",
+                "image": {
+                    "file": "misc/login"
+                },
+                "type": 1,
+                "uuid": ""
+            },
+            "note": "My notes",
+            "subtitle": "UserNameTest",
+            "template_type": "login.default",
+            "title": "TestHeaderReduced",
+            "trashed": 0,
+            "updated_at": 1748310960,
+            "uuid": "7bf3928f-f8f5-46f8-99bd-137914cbd643"
+        }
+    ]
+}
+
