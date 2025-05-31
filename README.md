@@ -55,8 +55,8 @@ Title,URL,Username,Password,OTPAuth URL,Notes
 
 ### Input Formats
 
-- **JSON (empfohlen)**: Enpass JSON export (empfohlen, da vollständiger Datenexport)
-- **CSV**: Standard Enpass CSV export (eingeschränkter Feldumfang)
+- **JSON (recommended)**: Enpass JSON export (recommended for complete data export)
+- **CSV**: Standard Enpass CSV export (limited field support)
 
 ### Output Format
 
