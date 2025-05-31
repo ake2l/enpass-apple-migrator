@@ -21,6 +21,8 @@ keywords = [
     "cli"
 ]
 
+dynamic = ["version"]
+
 license = { file = "LICENSE" }
 description = "Since Enpass doesn't make it so easy to escape, this tool helps you to export your data in other Password Managers formats."
 readme = "README.md"
