@@ -63,7 +63,7 @@ Title,URL,Username,Password,OTPAuth URL,Notes
 Apple Passwords import CSV with the following columns:
 
 ```csv
-Title,URL,Username,Password,OTPAuth URL,Notes
+Title,URL,Username,Password,Notes,OTPAuth URL
 ```
 
 ## 🔒 Security Considerations

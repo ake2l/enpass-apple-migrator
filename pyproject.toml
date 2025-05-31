@@ -22,7 +22,6 @@ keywords = [
 ]
 
 license = { file = "LICENSE" }
-version = "0.1.0"
 description = "Since Enpass doesn't make it so easy to escape, this tool helps you to export your data in other Password Managers formats."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -36,9 +35,14 @@ enpass-escape = "enpass_escape.cli:app"
 [build-system]
 requires = [
     "setuptools>=61.2.0",
-    "wheel"
+    "wheel",
+    "setuptools_scm"
 ]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 include = ["enpass_escape"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "no-local-version"
